@@ -1,20 +1,23 @@
-var m = 600
-var a = 2
+var nama = 'Mikael'
+var peran = 'Ksatria'
 
-console.log('Resultan gaya = ' + m*a)
-
-var tahun = 2020
-
-if (tahun % 4 == 0 && tahun % 100 != 0 || tahun % 4 == 0 && tahun % 100 == 0 && tahun % 400 == 0){
-    console.log('Tahun ' + tahun + ' Tahun kabisat')
+if(nama == ''){
+    console.log('Nama harus diisi!')
+}
+else if(peran == ''){
+    console.log('Hallo ' + nama + ',' + ' pilih peranmu untuk memulai game!')
+}
+else if(peran == 'Ksatria'){
+    console.log('Selamat datang di Dunia Proxytia, '  + nama)
+    console.log('Halo ' + peran + ' ' + nama + ',' + ' kamu dapat menyerang dengan senjatamu!')
+}
+else if(peran == 'Tabib'){
+    console.log('Selamat datang di Dunia Proxytia, ' + nama)
+    console.log('Halo ' + peran + ' ' + nama + ',' + ' kamu akan membantu temanmu yang terluka.')
+}
+else if(peran == 'Penyihir'){
+    console.log('Selamat datang di Dunia Proxytia, ' + nama)
+    console.log('Halo ' + peran + ' ' + nama + ',' + ' ciptakan keajaiban yang membantu kemenanganmu')
 }else{
-    console.log('Tahun ' + tahun + ' Bukan tahun kabisat')
+    console.log('Halo ' + nama + ',' + ' peranmu tidak tersedia!')
 }
-
-
-
-for ( var a = 1; a <= 20; a++){
-    console.log(a)
-}
-
-prompt('nama saya adalah')
