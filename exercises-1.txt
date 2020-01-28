@@ -5,6 +5,15 @@
 - Output resultan  gaya
 - End
 
+SET masa benda, percepatan benda
+READ masa benda
+READ percepatan benda
+COMPUTE resultan gaya = masa benda x percepatan benda
+DISPLAY resultan gaya
+END
+
+-----------------------------------------------------------------------------------------------
+
 # 2. Tahun Kabisat
 - Set Tahun
 - Input Tahun
@@ -12,12 +21,30 @@
 - Output tahun Kabisat
 - End
 
+SET tahun
+READ tahun
+IF tahun % 4 == 0 && tahun % 100 != 0 || tahun % 4 ==0 && tahun % 100 == 0 && tahun % 400 == 0 THEN
+  tahun kabisat
+ELSE
+  bukan tahun kabisat
+ENDIF
+
+-----------------------------------------------------------------------------------------------
+
 # 3. Laundry Day
 - Set jumlah pakaian
 - Input jumlah pakaian
-- Proses, jika jumlah pakaian = 20
+- Proses, jumlah pakaian = 20
 - Mesin dinyalakan
 - End
+
+SET jumlahPakaian
+READ jumlahPakaian
+FOR jumlahPakaian = 1; jumlahPakaian <= 20; jumlahPakaian ++
+  jumlahPakaian
+ENDFOR
+
+-----------------------------------------------------------------------------------------------
 
 # 4. Periksa Kuku
 - Set jumlah siswa, nama siswa
