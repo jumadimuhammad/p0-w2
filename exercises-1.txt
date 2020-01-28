@@ -1,0 +1,28 @@
+# 1.Newton Secon Law
+- Set resultan gaya, masa benda, percepatan benda
+- Input masa benda, percepatan benda
+- Proses, resultan gaya = masa benda X percepatan benda
+- Output resultan  gaya
+- End
+
+# 2. Tahun Kabisat
+- Set Tahun
+- Input Tahun
+- Proses, tahun habis dibagi 4 dan tidak habis di bagi 100 atau tahun habis dibagi 100 dan habis di bagi 400
+- Output tahun Kabisat
+- End
+
+# 3. Laundry Day
+- Set jumlah pakaian
+- Input jumlah pakaian
+- Proses, jika jumlah pakaian = 20
+- Mesin dinyalakan
+- End
+
+# 4. Periksa Kuku
+- Set jumlah siswa, nama siswa
+- Input jumlah siswa
+- Input nama siswa
+- Proses, jika kuku panjang siswa-siswi dihukum, jika tidak guru akan memuji mereka
+- End
+
