@@ -53,3 +53,14 @@ ENDFOR
 - Proses, jika kuku panjang siswa-siswi dihukum, jika tidak guru akan memuji mereka
 - End
 
+SET jumlahSiswa, namaSiswa
+READ jumlahSiswa
+READ namaSiswa
+
+IF siswa == 'kuku panjang' THEN
+    DISPLAY 'siswa dihukum'
+ELSE IF siswa == 'kuku pendek' THEN
+    DISPLAY 'siswa mendapat pujian'
+ENDIF
+
+
