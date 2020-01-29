@@ -41,7 +41,7 @@ ENDIF
 SET jumlahPakaian
 READ jumlahPakaian
 FOR jumlahPakaian = 1; jumlahPakaian <= 20; jumlahPakaian ++
-  jumlahPakaian
+  DISPLAY 'Mesin dinyalakan'
 ENDFOR
 
 -----------------------------------------------------------------------------------------------
@@ -53,14 +53,17 @@ ENDFOR
 - Proses, jika kuku panjang siswa-siswi dihukum, jika tidak guru akan memuji mereka
 - End
 
-SET jumlahSiswa, namaSiswa
-READ jumlahSiswa
-READ namaSiswa
+SET jumlahSiswa
+READ jumlahSiswa = 40
 
+REPEAT until jumlahSiswa > 0
 IF siswa == 'kuku panjang' THEN
     DISPLAY 'siswa dihukum'
 ELSE IF siswa == 'kuku pendek' THEN
     DISPLAY 'siswa mendapat pujian'
 ENDIF
+  jumlahSiswa - 1
+
+END REPEAT
 
 
