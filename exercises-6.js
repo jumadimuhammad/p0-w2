@@ -1,6 +1,5 @@
 // 1. LOOPING DENGAN WHILE
 
-
 var i = 2
 console.log('LOOPING PERTAMA')
 while (i <= 20){
@@ -37,7 +36,6 @@ console.log('LOOPING KEDUA')
 for(var i = 20; i >= 1; i--){
     console.log(i + ' - I lwill become fullstack developer')
 }
-
 
 
 
