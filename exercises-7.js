@@ -6,12 +6,28 @@ for (var i = 0; i < 5; i++ ){
 
 
 
-// 2. MENYUSUN BARISAN BINTANG
+// 2. MENYUSUN BARISAN BINTANG PERSEGI PANJANG
 
-console.log('PERULANGAN BERSARANG')
+console.log('PERULANGAN BERSARANG PERSEGI PANJANG')
 
 for (var i = 0; i < 5; i++ ){
+    var bintang = ''
     for (var j = 0; j < 5; j++ ){
-        console.log('*')
-    }console.log('\n')
+        bintang += '*'
+    }console.log(bintang)
+}
+
+
+// 2. MENYUSUN BARISAN BINTANG SEGITIGA
+
+
+console.log('PERULANGAN BERSARANG SEGITIGA')
+
+var temp = ''
+
+for (var i = 0; i < 5; i++ ){
+    temp = '*'
+    for (var j = 0; j < i; j++ ){
+        temp += '*'
+    }console.log(temp)
 }
