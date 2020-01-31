@@ -10,11 +10,13 @@ for (var i = 0; i < 5; i++ ){
 
 console.log('PERULANGAN BERSARANG PERSEGI PANJANG')
 
+var temp =''
+
 for (var i = 0; i < 5; i++ ){
-    var bintang = ''
+        temp = ''
     for (var j = 0; j < 5; j++ ){
-        bintang += '*'
-    }console.log(bintang)
+        temp += '*'
+    }console.log(temp)
 }
 
 
